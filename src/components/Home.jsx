@@ -14,7 +14,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            src="/public/assets/heroImage.png"
+            src="/assets/heroImage.png"
             alt="My Profile"
             className="liquid-effect rounded-full sm:w-[75%] lg:w-full z-10"
           />

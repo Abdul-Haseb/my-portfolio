@@ -3,32 +3,32 @@ export default function Portfolio() {
     {
       id: 1,
       link: "https://restore-construction-website-bnsi2rjac-workreel.vercel.app/",
-      img: "../../public/assets/portfolio/restore.webp",
+      img: "/assets/portfolio/restore.webp",
     },
     {
       id: 2,
       link: "https://www.hostyai.com/",
-      img: "../../public/assets/portfolio/hsotyai.webp",
+      img: "/assets/portfolio/hsotyai.webp",
     },
     {
       id: 3,
       link: "https://services.workreel.com/",
-      img: "../../public/assets/portfolio/services.webp",
+      img: "/assets/portfolio/services.webp",
     },
     {
       id: 4,
       link: "https://ibizajourney.com/",
-      img: "../../public/assets/portfolio/ibiza.webp",
+      img: "/assets/portfolio/ibiza.webp",
     },
     {
       id: 5,
       link: "https://buleh-nine.vercel.app/",
-      img: "../../public/assets/portfolio/buleh.webp",
+      img: "/assets/portfolio/buleh.webp",
     },
     {
       id: 6,
       link: "https://www.hostyai.com/",
-      img: "../../public/assets/portfolio/hosty.webp",
+      img: "/assets/portfolio/hosty.webp",
     },
   ];
   return (
