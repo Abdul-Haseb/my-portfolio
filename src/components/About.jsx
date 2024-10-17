@@ -10,19 +10,19 @@ export default function About() {
   return (
     <div
       id="about"
-      className="w-full lg:h-screen py-24 md:py-28 bg-gradient-to-b to-black from-gray-800 text-gray-300 px-6 flex items-center"
+      className="w-full lg:h-screen py-24 md:py-28 bg-gradient-to-b to-black from-gray-800 text-gray-300 flex items-center px-4"
       ref={ref}
     >
       <motion.div
-        className="max-w-screen-xl mx-auto px-4 lg:px-8 py-12 lg:py-16 text-gray-300 space-y-8"
+        className="max-w-screen-xl mx-auto py-12 lg:py-16 text-gray-300"
         initial={{ opacity: 0, y: 50 }} // Initial state
         animate={inView ? { opacity: 1, y: 0 } : {}} // Animate when in view
         transition={{ duration: 0.8, ease: "easeOut" }} // Animation duration
       >
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold bg-gradient-to-r from-gray-100 to-cyan-200 bg-clip-text text-transparent text-center mb-4">
-          About Me
-        </h2>
-        <div className="w-40 lg:w-64 bg-gradient-to-r from-cyan-500 to-blue-500 h-1 mx-auto mb-8" />
+        <h3 className="text-3xl md:text-4xl lg:text-5xl font-semibold bg-gradient-to-r from-gray-100 to-cyan-200  bg-clip-text text-transparent text-justify mb-1">
+          About
+        </h3>
+        <div className="w-24 md:w-28 lg:w-36 bg-gradient-to-r from-cyan-500 to-blue-500 h-1 mb-6" />
         <p className="md:text-lg leading-relaxed bg-gradient-to-r from-gray-100 to-cyan-200 bg-clip-text text-transparent text-justify">
           Hi there! I`m Abdul Haseeb, a frontend developer with a passion for
           creating interactive web experiences. My journey into web development
@@ -31,7 +31,7 @@ export default function About() {
           user-friendly web applications. What began as curiosity has now become
           my full-time pursuit, and I love every bit of it!
         </p>
-        <p className="md:text-lg leading-relaxed bg-gradient-to-r from-gray-100 to-cyan-200 bg-clip-text text-transparent text-justify">
+        <p className="md:text-lg leading-relaxed bg-gradient-to-r from-gray-100 to-cyan-200 bg-clip-text text-transparent text-justify my-4">
           My main focus has been on mastering React.js and working with tools
           like Tailwind CSS to create responsive and dynamic interfaces. I`m
           always excited to explore new libraries and frameworks that can make
@@ -50,7 +50,7 @@ export default function About() {
           lot to learn, but I`m proud of the progress I`ve made so far and
           excited about what`s to come.
         </p>
-        <p className="md:text-lg leading-relaxed bg-gradient-to-r from-gray-100 to-cyan-200 bg-clip-text text-transparent text-justify">
+        <p className="md:text-lg leading-relaxed bg-gradient-to-r from-gray-100 to-cyan-200 bg-clip-text text-transparent text-justify mt-4">
           When I`m not coding, I enjoy keeping up with the latest in tech and
           design, reading about new ideas, and connecting with other developers
           in the community. I believe in the power of collaboration and am

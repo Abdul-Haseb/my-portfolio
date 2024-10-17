@@ -1,5 +1,6 @@
 import { PiArrowFatLinesRightThin } from "react-icons/pi";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 export default function Home() {
   return (
@@ -35,20 +36,27 @@ export default function Home() {
             web applications using technologies like React, Tailwind CSS, and
             Next.js.
           </p>
-          <motion.button
-            className="group text-white px-4 md:px-6 py-2 hover:scale-110 transition-transform duration-500  md:py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-600 cursor-pointer"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 1, duration: 0.8 }}
+          <Link
+            to={"portfolio"}
+            smooth={true}
+            duration={500} // Smooth scrolling duration
+            offset={-70} // Offset for sticky navbar (adjust if necessary)
           >
-            Portfolio{" "}
-            <span>
-              <PiArrowFatLinesRightThin
-                className="text-white group-hover:rotate-90 transition-all duration-200 ease-in ml-2"
-                size={20}
-              />
-            </span>
-          </motion.button>
+            <motion.button
+              className="group text-white px-4 md:px-6 py-2 hover:scale-110 transition-transform duration-500  md:py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-600 cursor-pointer"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 1, duration: 0.8 }}
+            >
+              Portfolio
+              <span>
+                <PiArrowFatLinesRightThin
+                  className="text-white group-hover:rotate-90 transition-all duration-200 ease-in ml-2"
+                  size={20}
+                />
+              </span>
+            </motion.button>
+          </Link>
         </motion.div>
       </div>
     </div>
