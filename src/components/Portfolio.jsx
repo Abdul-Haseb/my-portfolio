@@ -7,8 +7,8 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      link: "https://www.hostyai.com/",
-      img: "/assets/portfolio/hsotyai.webp",
+      link: "https://www.hillsdairyfarm.com/",
+      img: "/assets/portfolio/dairy.webp",
     },
     {
       id: 3,
