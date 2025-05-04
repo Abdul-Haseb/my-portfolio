@@ -32,7 +32,7 @@ export default function Portfolio() {
     },
     {
       id: 7,
-      link: "https://vercel.com/workreel/green-light/43F3PpAAYnNVZcyVYa6aiTTFaA2C",
+      link: "https://green-light-sand.vercel.app/",
       img: "/assets/portfolio/greenlight.webp",
     },
   ];
