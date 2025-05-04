@@ -22,13 +22,18 @@ export default function Portfolio() {
     },
     {
       id: 5,
-      link: "https://buleh-nine.vercel.app/",
-      img: "/assets/portfolio/buleh.webp",
+      link: "https://countries-information-seven.vercel.app/",
+      img: "/assets/portfolio/country.webp",
     },
     {
       id: 6,
       link: "https://www.hostyai.com/",
       img: "/assets/portfolio/hosty.webp",
+    },
+    {
+      id: 7,
+      link: "https://vercel.com/workreel/green-light/43F3PpAAYnNVZcyVYa6aiTTFaA2C",
+      img: "/assets/greenlight.webp",
     },
   ];
   return (
