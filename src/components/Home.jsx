@@ -32,8 +32,8 @@ export default function Home() {
             I`m a Frontend Developer
           </h2>
           <p className="bg-gradient-to-r from-gray-200 to-gray-400 bg-clip-text text-transparent max-w-md py-4 md:text-lg font-medium md:tracking-wider">
-            I`ve 1.5 years of experience building websites. I love to work on
-            web applications using technologies like React, Tailwind CSS, and
+            I`ve 3 years of experience building websites. I love to work on web
+            applications using technologies like React, Tailwind CSS, and
             Next.js.
           </p>
           <Link
